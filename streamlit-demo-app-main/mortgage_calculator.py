@@ -7,8 +7,8 @@ st.title("Repayments Calculator")
 
 st.write("### Input Data")
 col1, col2 = st.columns(2)
-home_value = col1.number_input("Home Value", min_value=0, value=50000000)
-deposit = col1.number_input("Deposit", min_value=0, value=10000000)
+home_value = col1.number_input("Home Value", min_value=0, value=5000000)
+deposit = col1.number_input("Deposit", min_value=0, value=1000000)
 interest_rate = col2.number_input("Interest Rate (in %)", min_value=0.0, value=5.5)
 loan_term = col2.number_input("Loan Term (in years)", min_value=1, value=30)
 
